@@ -9,7 +9,7 @@ namespace Ejercicio5
     class actividad5
     {
 
-        public static void Main(string[] args)
+        public static void Main5(string[] args)
         {
             Ambiente desarrollo = new Ambiente("linux",4, "postgresql", "openjdk");
             Ambiente testing = new Ambiente("Windows Server 2019", 8, "SQL Server", "app");
