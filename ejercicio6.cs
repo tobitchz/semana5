@@ -8,7 +8,7 @@ namespace Ejercicio5
 {
     class ejercicio6
     {
-        public static void Main(string[] args)
+        public static void Main6(string[] args)
         {
             Persona persona1 = new Persona(int.Parse(Console.ReadLine()));
             Persona persona2 = new Persona(int.Parse(Console.ReadLine()));
