@@ -9,7 +9,7 @@ namespace Ejercicio5
     class actividad4
     {
 
-     public static void Main(string[] args)
+     public static void Main1(string[] args)
         {
           
             Programador programador = new Programador();
@@ -88,7 +88,7 @@ namespace Ejercicio5
             
             public void MostrarInfo()
             {
-                Console.WriteLine($"Info: Nombre: {nombre} {apellido} Tel: {telefono} Email: {email} Sueldo: {GetSueldo()} DNI: {dni} Lenguaje: {lenguaje} Categoria: {categoria} Cantidad de tumbadas:  {cantTumbadas} Info depto sistemas: Area: {departamento.area} Cantidad de gente a dispocicision: {departamento.cantGente} Tiene titulo: {departamento.tieneTituloRelacionado} Tiene PC: {departamento.tienePC}");
+                Console.WriteLine($"Info: Nombre: {nombre} {apellido} Tel: {telefono} Email: {email} Sueldo: {GetSueldo()} DNI: {dni} Lenguaje: {lenguaje} Categoria: {categoria}, Cantidad de tumbadas:  {cantTumbadas} Info depto sistemas: Area: {departamento.area}, Cantidad de gente a dispocicision: {departamento.cantGente}, Tiene titulo: {departamento.tieneTituloRelacionado}, Tiene PC: {departamento.tienePC}");
             }
         }
     }
