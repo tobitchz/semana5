@@ -9,9 +9,10 @@ namespace Ejercicio5
     class Actividad3
     {
 
-        public static void Main(String[] args)
+        public static void Main2(String[] args)
         {
             CuentaMayor cuentaMayor = new CuentaMayor(10003,"tobias", 1200, "activo", 20);
+
             cuentaMayor.MostrarInfo();
             cuentaMayor.IngresarMonto(200);
             cuentaMayor.MostrarInfo();
