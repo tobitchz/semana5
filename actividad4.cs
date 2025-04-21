@@ -9,7 +9,7 @@ namespace Ejercicio5
     class actividad4
     {
 
-     public static void Main1(string[] args)
+     public static void Main4(string[] args)
         {
           
             Programador programador = new Programador();

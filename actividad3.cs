@@ -9,7 +9,7 @@ namespace Ejercicio5
     class Actividad3
     {
 
-        public static void Main2(String[] args)
+        public static void Main3(String[] args)
         {
             CuentaMayor cuentaMayor = new CuentaMayor(10003,"tobias", 1200, "activo", 20);
 

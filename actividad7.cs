@@ -9,7 +9,7 @@ namespace Ejercicio5
     class actividad7
     {
 
-        public static void Main(string[] args) 
+        public static void Main7(string[] args) 
         { 
             Tren tren = new Tren(); 
             Vagon vagon = new Vagon();

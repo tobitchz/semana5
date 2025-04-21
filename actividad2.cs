@@ -7,7 +7,7 @@ namespace Ejercicio5
 
     class Actividad2
     {
-        public static void Main1(String[] args)
+        public static void Main2(String[] args)
         {
 
             Cuadrado cuadrado = new Cuadrado();
