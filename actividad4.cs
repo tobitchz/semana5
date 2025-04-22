@@ -12,7 +12,10 @@ namespace Ejercicio5
      public static void Main4(string[] args)
         {
           
-            Programador programador = new Programador();
+            DeptoSistemas depto = new DeptoSistemas("Desarrollo", true, true, 15);
+            Programador programador = new Programador(depto); // ✅ ahora sí
+
+
 
             programador.SetSueldo(213);
             programador.MostrarInfo();
@@ -29,17 +32,17 @@ namespace Ejercicio5
             public string email;
             public string dni;
             private decimal sueldo;
-            public DeptoSistemas departamento = new DeptoSistemas("sistemas", true, false, 12);
+            public DeptoSistemas departamento;
 
 
-            public Empleado()
+            public Empleado(DeptoSistemas depto)
             {
                 nombre = "Miguel";
                 apellido = "Diaz";
                 telefono = "15-4355-2342";
-                email = "migueldiaz@gmail.com";
+                email = "migueldiaz@gmail.com"; 
                 dni = "46738934";
-
+                departamento = depto;
             }
 
             public decimal GetSueldo()
@@ -77,7 +80,7 @@ namespace Ejercicio5
             public int cantTumbadas;
 
 
-            public Programador ()
+            public Programador (DeptoSistemas depto) : base(depto)
               {
 
                 lenguaje = "Python";
